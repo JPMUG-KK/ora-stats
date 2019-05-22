@@ -2,16 +2,35 @@ StatsPack Visualizer
 ==========================
 ![image](https://github.com/JPMUG-KK/ora-stats/blob/master/public/img/screenshot.png)
 ## Description
-
-## Demo
-
-## VS. 
+Directly reference and visualize the Oracle statspack table.
 
 ## Requirement
+* node 8.11.3+
+* npm 6.4.1+ or similar package manager
+* React 16.4+
+* Python 2.7+
+* Oracle 18, 12, or 11.2 client libraries
+
+### node-oracledb requirement
+[Quick Start Node-oracledb Installation](https://oracle.github.io/node-oracledb/INSTALL.html#quickstart)
+
+## Quick Start
+1. `cd /ora-stats`
+1. Database connection information editing
+    1. Open the `/src/dbconfig.js`
+    ```
+module.exports = {
+    user          : "sys",
+    password      : "pasword",
+    connectString : "ip address:1521/orcl"
+};
+    ```
+1. `npm run api-start`
+1. Open another terminal `npm start`
 
 ## Usage
 
-## Install
+
 
 ## Contribution
 
