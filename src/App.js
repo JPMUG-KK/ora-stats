@@ -2746,7 +2746,6 @@ class App extends Component {
     this.saveLocalStorage('waitClassNames', saveParams);
   }
   setSyncHeight(key, min, max){
-    console.log('setSyncHeight', key, min, max);
     const syncHeight = Object.assign({}, this.state.syncHeight);
     if(syncHeight[key] === undefined){
       syncHeight[key] = {

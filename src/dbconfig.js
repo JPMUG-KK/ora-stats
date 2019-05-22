@@ -1,5 +1,5 @@
 module.exports = {
     user          : "sys",
-    password      : "",
-    connectString : ""
+    password      : "insight",
+    connectString :"172.20.20.174:1521/orcl"
 };

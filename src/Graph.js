@@ -654,7 +654,6 @@ class Graph extends Component {
       this.handleChartHeightChange('defaultChartHeight');
 //      console.log(prevDefaultChartHeight, currDefaultChartHeight);
     }
-    console.log('this.props.prop.syncHeight=>', this.props.prop.syncHeight);
     
     Object.keys(this.props.prop.syncHeight).map(key => {
       if(this.internalChart && this.internalChart[key] && this.internalChart[key].yAxis){
@@ -672,13 +671,9 @@ class Graph extends Component {
         }
       }
     });
-   console.log('this.internalChart=>', this.internalChart);
-
   }
 
   handleChartHeightChange(key){
-    console.log('handleChartHeightChange()', this.prop.loadData);
-    
     if(this.internalChart){
       const heightMenu = this.props.prop[key].filter(c => c.selected);
       const value      = heightMenu[0].height;
@@ -716,7 +711,6 @@ class Graph extends Component {
     const key = chart.userOptions.key;
     if(this.internalChart === undefined) this.internalChart = {};
     this.internalChart[key] = chart;
-    console.log(this.props)
     this.props.prop.setSyncHeight(key, chart.yAxis[0].min, chart.yAxis[0].max);
   }
   parseNumber(elapsed, execution){
