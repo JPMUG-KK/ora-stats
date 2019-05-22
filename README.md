@@ -18,13 +18,15 @@ Directly reference and visualize the Oracle statspack table.
 1. `cd /ora-stats`
 1. Database connection information editing
     1. Open the `/src/dbconfig.js`
-    ```
+
+```
 module.exports = {
     user          : "sys",
     password      : "pasword",
     connectString : "ip address:1521/orcl"
 };
-    ```
+```
+
 1. `npm run api-start`
 1. Open another terminal `npm start`
 
