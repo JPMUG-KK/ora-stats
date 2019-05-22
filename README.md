@@ -15,9 +15,11 @@ Directly reference and visualize the Oracle statspack table.
 [Quick Start Node-oracledb Installation](https://oracle.github.io/node-oracledb/INSTALL.html#quickstart)
 
 ## Quick Start
+
+### Database connection config file editing
 1. `cd /ora-stats`
-1. Database connection information editing
-    1. Open the `/src/dbconfig.js`
+1. Open the `/src/dbconfig.js`
+1. edit `password` & `connectString`
 ```
 module.exports = {
     user          : "sys",
@@ -25,8 +27,15 @@ module.exports = {
     connectString : "ip address:1521/orcl"
 };
 ```
+
+### API server start
+1. `cd /ora-stats`
 1. `npm run api-start`
-1. Open another terminal `npm start`
+
+### Application start
+1. Open another terminal
+1. `cd /ora-stats`
+1. `npm start`
 
 ## Usage
 
