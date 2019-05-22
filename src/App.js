@@ -632,7 +632,8 @@ class App extends Component {
         loadData : [],
         compare : false,
         setSyncHeight : this.setSyncHeight,
-        syncHeight : {}
+        syncHeight : {},
+        brandImage : false,
     };
     
   }
@@ -2800,10 +2801,10 @@ class App extends Component {
             <Typography className={classes.title} variant="h6" color="inherit" noWrap>
               <span style={{fontWeight: 700}}>StatsPack</span> Visualizer
             </Typography>
-            <div className={classes.grow} />
-            <div className={classes.sectionDesktop}>
-              <img src="./img/Logo_InsightTechnology_wt.png" alt="" style={{height : 30}} />
-            </div>
+            <div className={classes.grow} />            
+            {
+              this.state.brandImage && <div className={classes.sectionDesktop}><img src="./img/brand.png" alt="" style={{height : 30}} /></div>
+            }
           </Toolbar>
         </AppBar>
         <div style={{ padding: 20 }} id="container" className={classes.container}>
