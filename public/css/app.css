@@ -1,0 +1,39 @@
+html{
+    background-color : #333333;
+}
+body{
+    padding-top : 70px !important;
+}
+@-webkit-keyframes airis-anim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes airis-anim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes airis-anim { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+::-webkit-scrollbar {
+    width: 4px;
+    height : 4px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, .25);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255,255,255, .25);
+}
+[data-scroll="custom"]::-webkit-scrollbar-thumb{
+    background-color : transparent;
+}
+[data-scroll="custom"]:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .25);
+}
