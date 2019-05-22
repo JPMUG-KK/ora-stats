@@ -1,5 +1,5 @@
 module.exports = {
     user          : "sys",
-    password      : "insight",
-    connectString :"172.20.20.174:1521/orcl"
+    password      : "${pasword}",
+    connectString : "${ip address}:1521/orcl"
 };
