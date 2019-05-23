@@ -60,4 +60,4 @@ Please adjust to the statspack acquisition interval.
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+This software is released under the MIT License, see LICENSE.txt.
