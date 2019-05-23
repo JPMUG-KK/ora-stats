@@ -15,6 +15,9 @@ Directly reference and visualize the Oracle statspack table.
 [Quick Start Node-oracledb Installation](https://oracle.github.io/node-oracledb/INSTALL.html#quickstart)
 
 ## Quick Start
+### Node Module acquisition
+1. `cd /ora-stats`
+1. `npm install`
 
 ### Database connection config file editing
 1. `cd /ora-stats`
@@ -43,6 +46,10 @@ module.exports = {
 
 1. Target period selection
 1. click `CONNECT` button
+
+### SQL Deatail
+Click the log record to view details.
+![image](https://github.com/JPMUG-KK/ora-stats/blob/master/public/img/screenshot_sql.png)
 
 ### filtering
 
