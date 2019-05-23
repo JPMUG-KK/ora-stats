@@ -39,7 +39,24 @@ module.exports = {
 
 ## Usage
 
+### Acquisition of visualization data
 
+1. Target period selection
+1. click `CONNECT` button
+
+### filtering
+
+`Gear icon` click
+
+#### Chart selection
+* Wait Class
+* Resource
+* SQL log 
+
+![image](https://github.com/JPMUG-KK/ora-stats/blob/master/public/img/screenshot_setting.png)
+
+#### Chart data interval adjustment
+Please adjust to the statspack acquisition interval.
 
 ## Contribution
 
