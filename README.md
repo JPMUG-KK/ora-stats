@@ -67,4 +67,4 @@ Please adjust to the statspack acquisition interval.
 
 ## Licence
 
-This software is released under the MIT License, see LICENSE.txt.
+This software is released under the MIT License, see [LICENSE.txt](https://github.com/JPMUG-KK/ora-stats/blob/master/LICENSE.txt).
