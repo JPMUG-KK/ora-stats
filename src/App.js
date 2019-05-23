@@ -811,6 +811,7 @@ class App extends Component {
               }
           },
           inputBoxBorderColor: '#505053',
+          inputEnabled : false,
           inputStyle: {
               backgroundColor: '#333',
               color: 'silver'
