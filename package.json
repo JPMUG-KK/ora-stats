@@ -8,7 +8,7 @@
     "@material-ui/icons": "^3.0.2",
     "@material-ui/lab": "^3.0.0-alpha.30",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "highcharts": "^7.1.0",
     "highcharts-react-official": "^2.1.3",
     "material-ui-datetime-range-picker": "^0.2.2",
